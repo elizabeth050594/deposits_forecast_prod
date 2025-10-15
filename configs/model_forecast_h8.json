@@ -1,0 +1,21 @@
+{
+    "learning_rate": 0.0323887571145074,
+    "max_depth": 4,
+    "min_samples_leaf": 1,
+    "n_estimators": 277,
+    "sp": 12,
+    "subsample": 0.7629576088119175,
+    "window_length": 150,
+    "best_features": [
+        "household_deposits_roc8",
+        "household_deposits_diff8"
+    ],
+    "predictors": [],
+    "best_lags": [
+        8
+    ],
+    "best_rolling_windows": [],
+    "horizon": 8,
+    "model_name": "model_forecast_h8",
+    "target": "household_deposits"
+}

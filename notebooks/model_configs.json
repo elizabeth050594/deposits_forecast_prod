@@ -1,0 +1,110 @@
+{
+    "model_forecast_h14": {
+        "learning_rate": 0.09556428757689246,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "n_estimators": 175,
+        "sp": 12,
+        "subsample": 0.7468055921327309,
+        "window_length": 156,
+        "best_features": [
+            "household_deposits_diff12",
+            "household_deposits_diff11",
+            "household_loans_roc4",
+            "household_loans_roc10"
+        ],
+        "predictors": [
+            "household_loans"
+        ],
+        "best_lags": [
+            4,
+            10,
+            11,
+            12
+        ],
+        "best_rolling_windows": [],
+        "horizon": 14
+    },
+    "model_forecast_h8": {
+        "learning_rate": 0.0323887571145074,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "n_estimators": 277,
+        "sp": 12,
+        "subsample": 0.7629576088119175,
+        "window_length": 150,
+        "best_features": [
+            "household_deposits_roc8",
+            "household_deposits_diff8"
+        ],
+        "predictors": [],
+        "best_lags": [
+            8
+        ],
+        "best_rolling_windows": [],
+        "horizon": 8
+    },
+    "model_forecast_h5": {
+        "learning_rate": 0.08240638205278353,
+        "max_depth": 3,
+        "min_samples_leaf": 1,
+        "n_estimators": 119,
+        "sp": 12,
+        "subsample": 0.9521611575184935,
+        "window_length": 129,
+        "best_features": [
+            "household_deposits_roc5",
+            "household_deposits_diff5"
+        ],
+        "predictors": [],
+        "best_lags": [
+            5
+        ],
+        "best_rolling_windows": [],
+        "horizon": 5
+    },
+    "model_forecast_h2": {
+        "learning_rate": 0.07344290290006429,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "n_estimators": 200,
+        "sp": 12,
+        "subsample": 0.7643393094474292,
+        "window_length": 160,
+        "best_features": [
+            "household_deposits_roc2",
+            "household_deposits_diff2",
+            "household_deposits_std3"
+        ],
+        "predictors": [],
+        "best_lags": [
+            2
+        ],
+        "best_rolling_windows": [
+            3
+        ],
+        "horizon": 2
+    },
+    "model_forecast_h1": {
+        "learning_rate": 0.07344290290006429,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "n_estimators": 200,
+        "sp": 12,
+        "subsample": 0.7643393094474292,
+        "window_length": 160,
+        "best_features": [
+            "household_deposits_roc2",
+            "household_deposits_diff2",
+            "household_deposits_std3"
+        ],
+        "predictors": [],
+        "best_lags": [
+            2
+        ],
+        "best_rolling_windows": [
+            3
+        ],
+        "horizon": 1
+    }
+}

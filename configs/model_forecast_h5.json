@@ -1,0 +1,21 @@
+{
+    "learning_rate": 0.08240638205278353,
+    "max_depth": 3,
+    "min_samples_leaf": 1,
+    "n_estimators": 119,
+    "sp": 12,
+    "subsample": 0.9521611575184935,
+    "window_length": 129,
+    "best_features": [
+        "household_deposits_roc5",
+        "household_deposits_diff5"
+    ],
+    "predictors": [],
+    "best_lags": [
+        5
+    ],
+    "best_rolling_windows": [],
+    "horizon": 5,
+    "model_name": "model_forecast_h5",
+    "target": "household_deposits"
+}

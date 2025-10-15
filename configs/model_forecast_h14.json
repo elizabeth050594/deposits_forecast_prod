@@ -1,0 +1,28 @@
+{
+    "learning_rate": 0.09556428757689246,
+    "max_depth": 4,
+    "min_samples_leaf": 1,
+    "n_estimators": 175,
+    "sp": 12,
+    "subsample": 0.7468055921327309,
+    "window_length": 156,
+    "best_features": [
+        "household_deposits_diff12",
+        "household_deposits_diff11",
+        "household_loans_roc4",
+        "household_loans_roc10"
+    ],
+    "predictors": [
+        "household_loans"
+    ],
+    "best_lags": [
+        4,
+        10,
+        11,
+        12
+    ],
+    "best_rolling_windows": [],
+    "horizon": 14,
+    "model_name": "model_forecast_h14",
+    "target": "household_deposits"
+}
