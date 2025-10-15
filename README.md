@@ -33,7 +33,7 @@ Key assumptions and constraints for this project include:
 ## Summary of Methodology
 The overall methodology and data pipeline for this project involves the following:
 
-![Data Pipeline](asset/img/data-pipline.png)
+![Data Pipeline](./asset/img/data-pipline.png)
 
 **A. Data Collection**  
 - Initial dataset: 49 macroeconomic & financial variables.  
