@@ -94,3 +94,4 @@ The final features used after selection and model development are the target var
 Currently, data updates require appending new entries to data/raw/total_household_deposits_monthly_data.csv. **Need to check with stakeholders if they want a more user-friendly update process (e.g., a table or dashboard) or if manual CSV updates are sufficient.
 
 ## StreamLit
+This currently requires running on VScode on the local machine. 
