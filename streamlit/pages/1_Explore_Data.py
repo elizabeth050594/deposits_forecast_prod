@@ -19,7 +19,7 @@ def read_data(path):
 data = load_all_data()
 forecasts_df = data['forecasts']
 historic_df = data['historic']
-combined_df = data['historic'].copy()
+combined_df = data['legacy']
 deposits_sector_df = data['sector']
 
 # Parse dates

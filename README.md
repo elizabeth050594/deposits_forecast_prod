@@ -87,11 +87,13 @@ The final features used after selection and model development are the target var
 
 ## How to Use
 - For a detailed walkthrough of the model development and analysis, please refer to the accompanying notebooks.
-- To generate forecasts using the latest available data, run the notebook `00_run_forecasting_pipeline`.
+- To generate forecasts using the latest available data, run the notebook `00_run_forecasting_pipeline`. This will automatically use the latest data in the `data/raw` folder to run the model and produce forecasts.
 - To evaluate model performance on the most recent 12 months, run `01_run_validation_pipeline`, which produces error metrics and validation results by default.
 
 ## Updating the Data
-Currently, data updates require appending new entries to data/raw/total_household_deposits_monthly_data.csv. **Need to check with stakeholders if they want a more user-friendly update process (e.g., a table or dashboard) or if manual CSV updates are sufficient.
+Currently, data updates require appending new entries to the csv files in the `data/raw/` folder. 
+
+**Minimal update**: since the current models only use the `household_deposits` and `household_loans` features, it would be sufficient for the model to produce new forecasts if only these two values are updated. The next release of these data on RBNZ are generally at the end of each month (please refer to the exact dates for [household deposits](https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-liabilities-deposits-by-sector) and [household loans](https://www.rbnz.govt.nz/statistics/series/registered-banks/banks-assets-loans-by-sector) on the respective RBNZ websites). Please see the `how_to_update_the_data.pdf` file in the `data` folder for further details.
 
 ## StreamLit
-This currently requires running on VScode on the local machine. 
+This currently requires running on VScode on the local machine using `02_run_streamlit`. 
